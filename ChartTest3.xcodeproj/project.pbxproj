@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B858B8521B339F1000F1C780 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B858B8511B339F1000F1C780 /* Charts.framework */; };
+		B858B8531B339F1000F1C780 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B858B8511B339F1000F1C780 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B858D7BC1B338CCA00DBA1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858D7BB1B338CCA00DBA1C6 /* AppDelegate.swift */; };
 		B858D7BE1B338CCA00DBA1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858D7BD1B338CCA00DBA1C6 /* ViewController.swift */; };
 		B858D7C11B338CCA00DBA1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B858D7BF1B338CCA00DBA1C6 /* Main.storyboard */; };
 		B858D7C31B338CCA00DBA1C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B858D7C21B338CCA00DBA1C6 /* Images.xcassets */; };
 		B858D7C61B338CCA00DBA1C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B858D7C41B338CCA00DBA1C6 /* LaunchScreen.xib */; };
 		B858D7D21B338CCA00DBA1C6 /* ChartTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858D7D11B338CCA00DBA1C6 /* ChartTest3Tests.swift */; };
+		B89127D31B33915B00511335 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = B89127D21B33915B00511335 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +28,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B858B8541B339F1000F1C780 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B858B8531B339F1000F1C780 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B858B8511B339F1000F1C780 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Charts.framework; sourceTree = "<group>"; };
 		B858D7B61B338CCA00DBA1C6 /* ChartTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B858D7BA1B338CCA00DBA1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B858D7BB1B338CCA00DBA1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,7 @@
 		B858D7CB1B338CCA00DBA1C6 /* ChartTest3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartTest3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B858D7D01B338CCA00DBA1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B858D7D11B338CCA00DBA1C6 /* ChartTest3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTest3Tests.swift; sourceTree = "<group>"; };
+		B89127D21B33915B00511335 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B858B8521B339F1000F1C780 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,7 @@
 		B858D7AD1B338CCA00DBA1C6 = {
 			isa = PBXGroup;
 			children = (
+				B858B8511B339F1000F1C780 /* Charts.framework */,
 				B858D7B81B338CCA00DBA1C6 /* ChartTest3 */,
 				B858D7CE1B338CCA00DBA1C6 /* ChartTest3Tests */,
 				B858D7B71B338CCA00DBA1C6 /* Products */,
@@ -77,6 +98,7 @@
 		B858D7B81B338CCA00DBA1C6 /* ChartTest3 */ = {
 			isa = PBXGroup;
 			children = (
+				B89127D21B33915B00511335 /* Classes */,
 				B858D7BB1B338CCA00DBA1C6 /* AppDelegate.swift */,
 				B858D7BD1B338CCA00DBA1C6 /* ViewController.swift */,
 				B858D7BF1B338CCA00DBA1C6 /* Main.storyboard */,
@@ -122,6 +144,7 @@
 				B858D7B21B338CCA00DBA1C6 /* Sources */,
 				B858D7B31B338CCA00DBA1C6 /* Frameworks */,
 				B858D7B41B338CCA00DBA1C6 /* Resources */,
+				B858B8541B339F1000F1C780 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B858D7C11B338CCA00DBA1C6 /* Main.storyboard in Resources */,
+				B89127D31B33915B00511335 /* Classes in Resources */,
 				B858D7C61B338CCA00DBA1C6 /* LaunchScreen.xib in Resources */,
 				B858D7C31B338CCA00DBA1C6 /* Images.xcassets in Resources */,
 			);
@@ -293,7 +317,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -331,6 +355,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -339,9 +364,18 @@
 		B858D7D61B338CCA00DBA1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/mumbl1/Desktop,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Charts-befaaqcfwtudxlchdaocofgsruvs/Build/Products/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ChartTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -349,9 +383,17 @@
 		B858D7D71B338CCA00DBA1C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/mumbl1/Desktop,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Charts-befaaqcfwtudxlchdaocofgsruvs/Build/Products/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ChartTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -409,6 +451,7 @@
 				B858D7D71B338CCA00DBA1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B858D7D81B338CCA00DBA1C6 /* Build configuration list for PBXNativeTarget "ChartTest3Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +460,7 @@
 				B858D7DA1B338CCA00DBA1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
